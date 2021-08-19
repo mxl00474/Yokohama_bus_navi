@@ -8,7 +8,7 @@ __pycache__/
 local_settings.py
 db.sqlite3
 media
-Yokohama_bus_navi/static/
+static/
 
 ### Env file ###
 .env
