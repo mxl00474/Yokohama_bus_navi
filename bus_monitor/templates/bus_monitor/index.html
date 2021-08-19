@@ -1,0 +1,21 @@
+{% block content %}
+
+<head>
+<link href = "https://cdn.pydata.org./bokeh/release/bokeh-1.4.0.min.css" rel = "stylesheet" type = "text/css" >
+<link href = "https://cdn.pydata.org./bokeh/release/bokeh-widgets-1.4.0.min.css" rel = "stylesheet" type = "text/css" >
+<link href = "https://cdn.pydata.org./bokeh/release/bokeh-tables-1.4.0.min.css" rel = "stylesheet" type = "text/css" >
+
+<script type = "text/javascript" src = "https://cdn.pydata.org./bokeh/release/bokeh-1.4.0.min.js"> </script>
+<script type = "text/javascript" src = "https://cdn.pydata.org./bokeh/release/bokeh-widgets-1.4.0.min.js"> </script>
+<script type = "text/javascript" src = "https://cdn.pydata.org./bokeh/release/bokeh-tables-1.4.0.min.js"> </script>
+
+<h1>横浜市営バス位置情報</h1>
+{{script | safe}}
+</head> 
+<div style="margin-left:20px;margin-top:20px">
+
+<body>
+    {{div | safe}}
+</body>
+
+{% endblock %}
